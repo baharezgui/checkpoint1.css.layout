@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+img {
+    height: 40px;
+    
+}
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    
+        .hero {
+            background-image: url('/top-travel-agencies-in-Lagos.jpg'); /* Replace 'scenic_destination.jpg' with the actual image file name */
+            background-size: cover;
+            background-position: center;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+          
+          .hero-content {
+            color: red;
+          }
+          
+          h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+          }
+          
+          p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+          }
+          
+          .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF6347; /* Coral color, feel free to change */
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+          }
+          
+          .btn:hover {
+            background-color: #FF4500; /* Darker coral color on hover */
+          }
+          .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+          }
+          .social-icons {
+            margin-top: 10px;
+          }
+          .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+          }
